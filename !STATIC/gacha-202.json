@@ -1,13 +1,28 @@
 {
   "list": [
     {
-      "id": 1,
+      "id": 202,
+      "startDate": "2023-11-16T03:00:00.000Z",
+      "endDate": "2024-12-26T01:00:00.000Z",
       "bannerInfo": {
-        "bannerType": "DEFAULT",
-        "priority": 0,
-        "pickupIdList": [],
-        "illustList": [ "gacha_1_illust" ],
-        "videoList": []
+        "endDate": "2024-12-26T01:00:00.000Z",
+        "bannerType": "TEMPORARY_SUB",
+        "priority": 98,
+        "pickupIdList": [
+          20107,
+          20104,
+          10109,
+          10106
+        ],
+        "illustList": [
+          "gacha_202_illust"
+        ],
+        "videoList": [
+          "20107",
+          "20104",
+          "10109",
+          "10106"
+        ]
       },
       "payments": [
         {
@@ -15,7 +30,7 @@
           "gachaUIState": "Limit",
           "requiredItemId": 1,
           "requiredNum": 13,
-          "requiredChanceId": 1,
+          "requiredChanceId": 202,
           "count": 1
         },
         {
@@ -60,16 +75,16 @@
           "occupancyCaseList": [
             {
               "occupancyCase": "DEFAULT",
-              "occupancy": 8300
+              "occupancy": 4150
             },
             {
               "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 8400
+              "occupancy": 4200
             }
           ],
           "elementType": "PERSONALITY",
           "elementIdList": [
-            10101,
+
             10201,
             10301,
             10401,
@@ -81,6 +96,24 @@
             11001,
             11101,
             11201
+
+          ]
+        },
+        {
+          "groupType": "1_pickup",
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 4150
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_DEFAULT",
+              "occupancy": 4200
+            }
+          ],
+          "elementType": "PERSONALITY",
+          "elementIdList": [
+            10101
           ]
         },
         {
@@ -88,26 +121,24 @@
           "occupancyCaseList": [
             {
               "occupancyCase": "DEFAULT",
-              "occupancy": 1280
+              "occupancy": 640
             },
             {
               "occupancyCase": "TENTH",
-              "occupancy": 9580
+              "occupancy": 4790
             },
             {
               "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 1300
+              "occupancy": 650
             },
             {
               "occupancyCase": "COMPLETE_EGO_TENTH",
-              "occupancy": 9700
+              "occupancy": 4850
             }
           ],
           "elementType": "PERSONALITY",
           "elementIdList": [
-            10102,
-            10107,
-            10108,
+
             10202,
             10203,
             10205,
@@ -146,6 +177,35 @@
             11109,
             11202,
             11205
+
+          ]
+        },
+        {
+          "groupType": "2_pickup",
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 640
+            },
+            {
+              "occupancyCase": "TENTH",
+              "occupancy": 4790
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_DEFAULT",
+              "occupancy": 650
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_TENTH",
+              "occupancy": 4850
+            }
+          ],
+          "elementType": "PERSONALITY",
+          "elementIdList": [
+            10102,
+            10105,
+            10107,
+            10108
           ]
         },
         {
@@ -153,27 +213,24 @@
           "occupancyCaseList": [
             {
               "occupancyCase": "DEFAULT",
-              "occupancy": 290
+              "occupancy": 145
             },
             {
               "occupancyCase": "TENTH",
-              "occupancy": 290
+              "occupancy": 145
             },
             {
               "occupancyCase": "COMPLETE_EGO_DEFAULT",
-              "occupancy": 300
+              "occupancy": 150
             },
             {
               "occupancyCase": "COMPLETE_EGO_TENTH",
-              "occupancy": 300
+              "occupancy": 150
             }
           ],
           "elementType": "PERSONALITY",
           "elementIdList": [
-            10103,
-            10104,
-            10106,
-            10109,
+
             10204,
             10206,
             10302,
@@ -220,25 +277,53 @@
             11207,
             11209,
             11210
+
+          ]
+        },
+        {
+          "groupType": "3_pickup",
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 145
+            },
+            {
+              "occupancyCase": "TENTH",
+              "occupancy": 145
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_DEFAULT",
+              "occupancy": 150
+            },
+            {
+              "occupancyCase": "COMPLETE_EGO_TENTH",
+              "occupancy": 150
+            }
+          ],
+          "elementType": "PERSONALITY",
+          "elementIdList": [
+            10103,
+            10104,
+            10106,
+            10109
           ]
         },
         {
           "groupType": "EGO",
+          "samplingWithoutReplacement": true,
           "occupancyCaseList": [
             {
               "occupancyCase": "DEFAULT",
-              "occupancy": 130
+              "occupancy": 65
             },
             {
               "occupancyCase": "TENTH",
-              "occupancy": 130
+              "occupancy": 65
             }
           ],
           "elementType": "EGO",
           "elementIdList": [
-            20103,
-            20104,
-            20107,
+
             20203,
             20204,
             20303,
@@ -260,9 +345,94 @@
             21103,
             21203,
             21205
+
+          ]
+        },
+        {
+          "groupType": "EGO_pickup",
+          "samplingWithoutReplacement": true,
+          "occupancyCaseList": [
+            {
+              "occupancyCase": "DEFAULT",
+              "occupancy": 65
+            },
+            {
+              "occupancyCase": "TENTH",
+              "occupancy": 65
+            }
+          ],
+          "elementType": "EGO",
+          "elementIdList": [
+            20103,
+            20104,
+            20107
           ]
         }
-      ]
+      ],
+      "pitySystem": {
+        "endDate": "2024-12-26T01:00:00.000Z",
+        "catalog": [
+          {
+          "element": {
+            "type": "PERSONALITY",
+            "id": 10109,
+            "num": 1
+          },
+          "requiredPityPoint": 200
+        },
+          {
+            "element": {
+              "type": "PERSONALITY",
+              "id": 10106,
+              "num": 1
+            },
+            "requiredPityPoint": 200
+          },
+          {
+            "element": {
+              "type": "PERSONALITY",
+              "id": 10104,
+              "num": 1
+            },
+            "requiredPityPoint": 200
+          },
+          {
+            "element": {
+              "type": "PERSONALITY",
+              "id": 10103,
+              "num": 1
+            },
+            "requiredPityPoint": 200
+          },
+
+
+
+          {
+            "element": {
+              "type": "EGO",
+              "id": 20107,
+              "num": 1
+            },
+            "requiredPityPoint": 200
+          },
+          {
+            "element": {
+              "type": "EGO",
+              "id": 20104,
+              "num": 1
+            },
+            "requiredPityPoint": 200
+          },
+          {
+            "element": {
+              "type": "EGO",
+              "id": 20103,
+              "num": 1
+            },
+            "requiredPityPoint": 200
+          }
+        ]
+      }
     }
   ]
 }

@@ -3,11 +3,11 @@
     {
       "id": 9701,
       "name": "Hot ‘n Juicy Drumstick",
-      "desc": "When inflicting Burn with a Skill, inflict +3 Burn Count",
+      "desc": "When inflicting [Combustion] with a Skill, inflict +3 [Combustion] Count",
       "simpleDesc": [
         {
           "abilityID": 9701,
-          "simpleDesc": "When inflicting Burn with a Skill, inflict +3 Burn Count"
+          "simpleDesc": "When inflicting [Combustion] with a Skill, inflict +3 [Combustion] Count"
         }
       ]
     },
