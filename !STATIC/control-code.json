@@ -178,5 +178,5 @@
     }
   ],
   "mirrorDungeonSpecialPackLevelReward": 3,
-  "isUsingLetterBox": true
+  "isUsingLetterBox": false
 }
